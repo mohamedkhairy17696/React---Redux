@@ -31,27 +31,6 @@ const Header = () => {
                   Search
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  href="/#"
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                >
-                  Details
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a href="#learn" className="dropdown-item">
-                      Fortnite
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#next" className="dropdown-item">
-                      Where to go next
-                    </a>
-                  </li>
-                </ul>
-              </li>
               <li className="nav-item">
                 <a href="#faq" className="nav-link">
                   Streams

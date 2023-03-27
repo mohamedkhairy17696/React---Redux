@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { FaSearch } from "react-icons/fa";
 import axiosInstance from "../../axiosConfig/axiosInstance";
 import { Card, SectionHeader, SectionWrapper } from "../../components";
 import "./SearchPage.css";
@@ -13,7 +12,7 @@ const SearchPage = () => {
         `https://api.themoviedb.org/3/search/movie?api_key=29c7fe441820e96b87a9e582ba8f1cf7&query=${movie}`
       )
       .then((res) => {
-        let m = res.data.results;
+        let m = res.data;
         console.log([...m]);
         setArr(res.data);
       });
